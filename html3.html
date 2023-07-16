@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <table border="2" style="border-collapse: collapse;">
+        <tr>
+            <th>Month</th>
+            <th>Amount</th>
+        </tr>
+        <tr>
+            <td>Jan</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Feb</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <!-- <td>Mar</td> -->
+            <td>300</td>
+        </tr>
+        <tr>
+            <!-- <td>Total</td> -->
+            <td>600</td>
+        </tr>
+    </table>
+    <br><br>
+    <!-- rowspan col span -->
+    <table border="2" style="border-collapse: collapse;">
+        <colgroup>
+            <col span="3" style="background-color: aqua;"> 
+        </colgroup>
+        
+        <tr >
+            <td colspan="2" style="text-align: center;">abcd</td>
+            <!-- <td>abcd</td> -->
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <td rowspan="3">abcd</td>
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <!-- <td>abcd</td> -->
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <!-- <td>abcd</td> -->
+            <td>abcd</td>
+        </tr>
+        <tr>
+            <td>abcd</td>
+            <td>abcd</td>
+            <td>abcd</td>
+        </tr>
+    </table>
+    <br>
+    
+</body>
+</html>
