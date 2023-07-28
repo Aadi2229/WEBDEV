@@ -1,0 +1,41 @@
+ul li{
+    color: rgb(223, 82, 211);
+}
+header
+{
+    background-color: aqua;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#blue{
+    color: blue;
+}
+.red{
+    color: red;
+}
+button:hover{
+    color: chartreuse;
+    background-color: black;
+}
+.pseudo:hover{
+    color: darkorange;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+#orn{
+    background-color: orange;
+}
+#wht{
+    background-color: rgb(255,255,255);
+}
+#wht
+{
+    background-color:green;
+}
