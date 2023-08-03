@@ -1,0 +1,27 @@
+header{
+    padding: 75px;
+    text-align: center;
+    background-image: linear-gradient(to right,aqua,green,blue);
+}
+label{
+    position: relative;
+    top: 15px;
+
+}
+.position{
+    position: relative;
+}
+div{
+    display: inline-block;
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+}
+#box3{
+    position: sticky;
+    top: 100px;
+}
+/* #box1{
+    position:fixed ;
+} */
